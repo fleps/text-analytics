@@ -106,7 +106,7 @@ a {
 
 .stats {
   flex: 1.3;
-  background-color: #8f8f8f25;
+  background: linear-gradient(to bottom, rgba(124, 124, 124, 0.349), rgba(173, 173, 173, 0.219));
   display: flex;
   flex-wrap: wrap;
 }
@@ -149,7 +149,7 @@ a {
 }
 
 .footer {
-  color: #757575;
+  color: #999999;
   width: 1050px;
   margin: 15px 0;
   display: flex;
