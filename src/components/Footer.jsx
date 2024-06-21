@@ -1,8 +1,10 @@
 const Footer = () => {
   return (
     <footer className='footer'>
-      <small>&copy; Copyright by ByteGrad. All rights reserved.</small>
-      <small>Last checked limits: 17 days ago</small>
+      <small>
+        Basic React App by <a href='https://github.com/fleps'>fleps</a>
+      </small>
+      <small>2024</small>
     </footer>
   );
 };
