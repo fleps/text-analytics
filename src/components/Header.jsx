@@ -3,7 +3,7 @@ const Header = () => {
     <header>
       <div className='bg'></div>
       <h1 className='first-heading'>
-        Word <span className='first-heading--thin'>Analytics</span>
+        Text <span className='first-heading--thin'>Analytics</span>
       </h1>
     </header>
   );
