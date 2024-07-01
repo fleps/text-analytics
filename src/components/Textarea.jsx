@@ -9,11 +9,11 @@ const Textarea = ({ text, setText }) => {
     setWarning('');
 
     let newText = e.target.value;
-    const fobiddenWord = forbiddenList.find(word => newText.toLowerCase().includes(word));
+    const forbiddenWord = forbiddenList.find(word => newText.toLowerCase().includes(word));
 
-    if (fobiddenWord) {
-      newText = newText.replace(fobiddenWord, '');
-      setWarning(`The input ${fobiddenWord} is not allowed`);
+    if (forbiddenWord) {
+      newText = newText.replace(forbiddenWord, '');
+      setWarning(`The input ${forbiddenWord} is not allowed`);
     }
 
     setText(newText);
